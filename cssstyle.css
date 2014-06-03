@@ -1,0 +1,190 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #422F10;
+    font-style: italic;
+
+}
+
+body{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-image: url(zapatos-fondo.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+header{
+    background-color: rgba(110, 85, 44, 0.9);
+    padding: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+footer{
+    background: #202020;
+    color: white;
+    padding: 0.5em;
+    overflow: hidden;
+    clear: both;
+}
+nav{
+    width: 98%;
+    margin: 0 auto;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+    width: 29%;
+    margin: 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav ul li:nth-child(1){
+    background-color: rgba(110, 85, 44, 0.9);
+    
+}
+
+nav ul li:nth-child(2){
+    background-color: rgba(110, 85, 44, 0.9);
+}
+
+section{
+    border: 1px solid black;
+    margin: 20px;
+    text-align: center;
+    
+}
+
+section h1{
+    text-align: center;
+    color:#7C4D29;
+    font-size: 2em;
+    }
+
+section p {
+    font-family: arial;
+    color: #612E07;
+    
+}
+
+section #imagenes{
+    border: 1px solid black;
+    width: 45%;
+    margin: 20px;
+
+}
+
+section #parte1{
+    border: 1px solid black;
+    width: 45%;
+    margin: 20px;
+    
+
+}
+
+section #tendencias{
+    border: 1px solid black;
+    width: 45%;
+    margin: 20px;
+}
+
+section #sugerencias{
+    text-align: left;
+    background-color: inherit;
+    width: 45%;
+    margin: 20px;
+}
+
+section #zapatos img{
+    width: 50%;
+}
+
+section #zapato img{
+    width: 50%;
+}
+
+section #papatos img{
+    width: 50%;
+}
+
+section ul #sugerencias{
+    text-align: left;
+}
+
+footer #pie img{
+    width: 4%;
+}
+
+h1{
+    color: #422F10;
+}
+
+h2{
+    color: #AE7549;
+    text-align: center;
+}
+
+p #Link{
+    text-align: center;
+    color: #5A4433;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+nav ul #comentario_nav a
+{
+background: #8B682F;
+padding: 0.8em 0.8em;    
+text-decoration: none;
+font-style: italic;
+border-radius: 5px;
+box-shadow: rgba(0,0,0,0.5) -5px 5px 20px;
+text-shadow: rgba(0,0,0,0.5) 2px 2px 5px
+}
+
+form #sugerencias{
+
+}
+
+/******************** madias query**********************/
+
+@media screen and (min-width: 321px) and (max-width: 480px){
+    
+/**********************cabezera*************/
+    header h1{
+        font-size: 2.5em;
+    }
+
+/***********************menu principal***************/
+    nav{
+        width: 100%;
+
+    }
+
+    nav ul{
+        width: 100%;
+    }
+
+    nav ul li{
+        width: 18%;
+    }
+
+
+    section 
+    {
+        background-color: rgba(139, 104, 47, 0.5);
+    
+    }
+}
+
